@@ -1,5 +1,4 @@
 const Dotenv = require('dotenv-webpack');
-const path = require('path');
 
 module.exports = {
   entry: [
@@ -18,12 +17,6 @@ module.exports = {
         presets: ['react', 'es2015', 'stage-1']
       }
     }]
-  },
-  resolveLoader: {
-    fallback: [
-      path.resolve(__dirname, 'loaders'),
-      path.join(process.cwd(), 'node_modules')
-    ]
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
