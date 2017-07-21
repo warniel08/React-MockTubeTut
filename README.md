@@ -1,4 +1,6 @@
-# ReduxSimpleStarter
+# React-MockTubeTut
+
+Based off of udemy.com's Stephen Grider and his ReduxSimpleStarter
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
